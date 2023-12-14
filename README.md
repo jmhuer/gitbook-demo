@@ -4,7 +4,7 @@ description: Machine Learning Software Engineer @ Disney
 
 # Juan Huerta
 
-🐙 [Github](https://www.github.com) | 🐦 [Twitter](https://www.twitter.com) | 👨‍💻[LinkedIn](https://www.linkedin.com) | 📝 [GoogleScholar](https://www.google.com) | 🎶 [SoundCloud](https://www.soundcloud.com) | ✉️ [Email](https://www.gmail.com) | 📺 [YouTube](https://www.youtube.com)\
+🐙 [Github](https://www.github.com) | 👨‍💻[LinkedIn](https://www.linkedin.com) | 📝 [GoogleScholar](https://www.google.com) | 🎶 [SoundCloud](https://www.soundcloud.com) | ✉️ [Email](https://www.gmail.com) \
 \
 **NEWS**
 
