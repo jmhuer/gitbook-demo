@@ -8,10 +8,10 @@ description: Sr Software Engineer, ML @ Disney - Emerging Tech
 \
 **NEWS**
 
-* [x] `[1/21/2022]`Graduated UT Austin, MS in CS
-* [x] `[1/21/2022]`Started working at Disney - Emerging Tech&#x20;
-* [x] `[1/21/2022]`Started working at GE Applicaces - Emerging Tech&#x20;
-* [x] `[1/21/2022]`Graduated Columbia SEAS, BS Applied Math
+* [x] `[1/21/2022]`_Graduated UT Austin, MS in CS_
+* [x] `[1/21/2022]`_Started working at Disney - Emerging Tech_&#x20;
+* [x] `[1/21/2022]`_Started working at GE Applicaces - Emerging Tech_&#x20;
+* [x] `[1/21/2022]`_Graduated Columbia SEAS, BS Applied Math_
 
 
 
