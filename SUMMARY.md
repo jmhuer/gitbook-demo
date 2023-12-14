@@ -1,23 +1,19 @@
 # Table of contents
 
+* [Juan Huerta](README.md)
+  * [Bio](juan-huerta/bio.md)
+  * [Contact me](juan-huerta/contact-me.md)
+
 ## 💻 Selected Projects
 
-* [VaryCharm](README.md)
+* [VaryCharm](selected-projects/varycharm.md)
 * [SIDL](selected-projects/sidl.md)
 * [FNC](selected-projects/fnc.md)
 
+## 🎶 Music
+
+* [5edexsucks](music/5edexsucks.md)
+
 ***
 
-* [README](<README (1).md>)
-* [Editing the book](editing\_the\_book.Rmd)
-* [Examples](examples.Rmd)
-* [Figures and tables](figures\_tables.Rmd)
-* [Get your GitBook](get\_your\_gitbook.Rmd)
-* [index](index.Rmd)
-* [License your GitBook](licenses.Rmd)
-* [Methods](method.Rmd)
-* [Open Educational Resources](open\_educational.Rmd)
-* [Prerequisites](prerequisites.Rmd)
-* [references](references.Rmd)
-* [Final Words](summary.Rmd)
-* [Compatibility with existing systems](use\_in\_course.Rmd)
+* [📖 My Wiki](https://jmhuer.gitbook.io/juans-wiki)

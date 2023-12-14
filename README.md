@@ -1,9 +1,66 @@
-# VaryCharm
+---
+description: Machine Learning Software Engineer @ Disney
+---
 
-## Our Vision
+# Juan Huerta
 
-{% hint style="info" %}
-**Good to know:** a good vision statement shows the long-term goals of the company without getting too deep into strategy, implementation, or product specifics.
-{% endhint %}
+🐙 [Github](https://www.github.com) | 🐦 [Twitter](https://www.twitter.com) | 👨‍💻[LinkedIn](https://www.linkedin.com) | 📝 [GoogleScholar](https://www.google.com) | 🎶 [SoundCloud](https://www.soundcloud.com) | ✉️ [Email](https://www.gmail.com) | 📺 [YouTube](https://www.youtube.com)\
+\
+**NEWS**
 
-Our company vision is to **be the authoritative reference point for environmentally conscious buyers** and to **encourage more sustainable business practices** through curating beautiful, practical, consciously-produced products.
+* [x] \[1/21/2022] Graduated UT Austin, MS in CS
+* [x] \[1/21/2022] Started working at Disney - Emerging Tech&#x20;
+* [x] \[1/21/2022] Started working at GE Applicaces - Emerging Tech&#x20;
+* [x] \[1/21/2022] Graduated Columbia SEAS, BS Applied Math
+
+Below are some of my patents and publications ordered in chronologically:
+
+<details>
+
+<summary>Publications </summary>
+
+**VaryCharm: A Method to Automatically vary Complexity** \
+sign Asuio, MCO 1922\
+Juan Huerta; Dr. Peter Stone, Bo Liu\
+Project Page Website [www.google.com](https://www.google.com)
+
+
+
+**VaryCharm: A Method to Automatically vary Complexity** \
+sign Asuio, MCO 1922\
+Juan Huerta; Dr. Peter Stone, Bo Liu\
+Project Page Website [www.google.com](https://www.google.com)
+
+
+
+**VaryCharm: A Method to Automatically vary Complexity** \
+sign Asuio, MCO 1922\
+Juan Huerta; Dr. Peter Stone, Bo Liu\
+Project Page Website [www.google.com](https://www.google.com)
+
+</details>
+
+<details>
+
+<summary>Patents</summary>
+
+**VaryCharm: A Method to Automatically vary Complexity** \
+sign Asuio, MCO 1922\
+Juan Huerta; Dr. Peter Stone, Bo Liu\
+Project Page Website [www.google.com](https://www.google.com)
+
+
+
+**VaryCharm: A Method to Automatically vary Complexity** \
+sign Asuio, MCO 1922\
+Juan Huerta; Dr. Peter Stone, Bo Liu\
+Project Page Website [www.google.com](https://www.google.com)
+
+
+
+**VaryCharm: A Method to Automatically vary Complexity** \
+sign Asuio, MCO 1922\
+Juan Huerta; Dr. Peter Stone, Bo Liu\
+Project Page Website [www.google.com](https://www.google.com)
+
+</details>
