@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Juan Huerta](README.md)
-  * [Bio](juan-huerta/bio.md)
-  * [Contact me](juan-huerta/contact-me.md)
+* [Juan M. Huerta](README.md)
+  * [Bio](juan-m.-huerta/bio.md)
+  * [Contact me](juan-m.-huerta/contact-me.md)
 
 ## 💻 Selected Projects
 
