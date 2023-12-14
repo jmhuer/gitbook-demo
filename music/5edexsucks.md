@@ -1,19 +1,10 @@
 ---
 description: Fun Music Project
-cover: >-
-  https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2970&q=80
-coverY: 0
 ---
 
 # 5edexsucks
 
-
-
-{% embed url="https://on.soundcloud.com/CEhmW" fullWidth="false" %}
-SoundCloud Playlist of my Music&#x20;
-{% endembed %}
-
-
+{% embed url="https://soundcloud.com/5edex-sucks/birds?in=5edex-sucks/sets/juans-music&si=2a66ce267de04396a4b34a2ca89c1c19&utm_campaign=social_sharing&utm_medium=text&utm_source=clipboard" %}
 
 {% hint style="info" %}
 **GitBook tip:** an employee directory can be a great way to help new folks get familiar with everyone they're going to be working with.
