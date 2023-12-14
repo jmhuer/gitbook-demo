@@ -1,5 +1,5 @@
 ---
-description: Machine Learning Software Engineer @ Disney
+description: Sr Software Engineer, ML @ Disney - Emerging Tech
 ---
 
 # Juan Huerta
@@ -8,12 +8,12 @@ description: Machine Learning Software Engineer @ Disney
 \
 **NEWS**
 
-* [x] \[1/21/2022] Graduated UT Austin, MS in CS
-* [x] \[1/21/2022] Started working at Disney - Emerging Tech&#x20;
-* [x] \[1/21/2022] Started working at GE Applicaces - Emerging Tech&#x20;
-* [x] \[1/21/2022] Graduated Columbia SEAS, BS Applied Math
+* [x] `[1/21/2022]`Graduated UT Austin, MS in CS
+* [x] `[1/21/2022]`Started working at Disney - Emerging Tech&#x20;
+* [x] `[1/21/2022]`Started working at GE Applicaces - Emerging Tech&#x20;
+* [x] `[1/21/2022]`Graduated Columbia SEAS, BS Applied Math
 
-Below are some of my patents and publications ordered in chronologically:
+
 
 <details>
 
