@@ -2,7 +2,7 @@
 
 * [Juan M. Huerta](README.md)
   * [Bio](juan-m.-huerta/bio.md)
-  * [Contact me](juan-m.-huerta/contact-me.md)
+  * [CV](juan-m.-huerta/cv.md)
 
 ## 💻 Selected Projects
 
