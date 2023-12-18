@@ -8,10 +8,10 @@ description: Sr Software Engineer, ML @ Disney - Emerging Tech
 \
 **NEWS**
 
-* [x] `[1/21/2022]`_Graduated UT Austin, MS in CS_
-* [x] `[1/21/2022]`_Started working at Disney - Emerging Tech_&#x20;
-* [x] `[1/21/2022]`_Started working at GE Applicaces - Emerging Tech_&#x20;
-* [x] `[1/21/2022]`_Graduated Columbia SEAS, BS Applied Math_
+* [x] `[12/2022]`_Graduated UT Austin, MS in CS_
+* [x] `[08/2022]`_Started working at Disney - Emerging Tech_&#x20;
+* [x] `[07/2022]`_Started working at GE Applicaces - Emerging Tech_&#x20;
+* [x] `[05/2018]`_Graduated Columbia, BS Applied Math_
 
 <details>
 
@@ -26,8 +26,6 @@ Juan M. Huerta and Munir Pirbhai. Exploring the potential of a multispectral-sen
 <details>
 
 <summary>Patents</summary>
-
-Absolutely, here's the list formatted with each item on a new line, with the link path included:
 
 US20210230783A1 -- AutoWash/Dry (Automatically Selecting Optimum Cycle for a Given Load) - Filed Date: 23 Jan 2020 - [https://patents.google.com/patent/US20210230783A1](https://patents.google.com/patent/US20210230783A1)
 
