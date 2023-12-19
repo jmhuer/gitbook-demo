@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/test-robot-2_1.gif
-coverY: -46.336
+cover: ../.gitbook/assets/Robot.gif
+coverY: 4.04
 layout:
   cover:
     visible: true
