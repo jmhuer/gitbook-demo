@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/robotautonomy.jpg
-coverY: -48
+cover: ../.gitbook/assets/Robot.gif
+coverY: 0
 ---
 
 # Robotics
