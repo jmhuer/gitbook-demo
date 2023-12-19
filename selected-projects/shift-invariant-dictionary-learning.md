@@ -1,10 +1,31 @@
-# Representation Learning
+---
+cover: ../.gitbook/assets/WNIXd.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
+# Shift-Invariant Dictionary Learning
 
-
-## Shift-Invariant Dictionary Learning using Temporal CONV-WTA Autoencoders for Discovering Music Relations
+### Shift-Invariant Dictionary Learning using Temporal CONV-WTA Autoencoders for Discovering Music Relations
 
 The temporal structure of music is full of shift-invariant patterns (e.g. motifs, ostinatos, loops, etc.). We propose using a Temporal Convolutional Winner-Take-All (CONV- WTA) autoencoder to find a shift-invariant dictionary to represent symbolic, multivariate, musical signals. The model learns to represent fixed length drum beats and variable length piano music. We discuss applications of this sparse representation such as de-noising musical ideas, unsupervised learning of composer styles, and music generation. To assist in related work we include interactive code along with the trained models.
+
+{% embed url="https://github.com/jmhuer/shift_invariant_dictionary_learning" %}
+Github Codebase for SIDL
+{% endembed %}
 
 ## Introduction
 

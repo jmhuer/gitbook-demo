@@ -8,7 +8,7 @@
 
 * [VaryNote](selected-projects/varynote.md)
 * [Robotics](selected-projects/robotics.md)
-* [Representation Learning](selected-projects/representation-learning.md)
+* [Shift-Invariant Dictionary Learning](selected-projects/shift-invariant-dictionary-learning.md)
 
 ## 🎶 Music
 
