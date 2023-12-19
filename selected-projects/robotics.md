@@ -1,7 +1,6 @@
 ---
-description: t
-cover: ../.gitbook/assets/giphy-2.gif
-coverY: 38
+cover: ../.gitbook/assets/Robot.gif
+coverY: 4.8480000000000025
 layout:
   cover:
     visible: true
