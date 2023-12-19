@@ -7,9 +7,9 @@
 ## 💻 Selected Projects
 
 * [VaryCharm](selected-projects/varycharm.md)
-* [SIDL](selected-projects/sidl.md)
 * [FNC](selected-projects/fnc.md)
 * [Robotics](selected-projects/robotics.md)
+* [Representation Learning](selected-projects/representation-learning.md)
 
 ## 🎶 Music
 
