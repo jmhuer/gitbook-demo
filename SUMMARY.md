@@ -6,8 +6,7 @@
 
 ## 💻 Selected Projects
 
-* [VaryCharm](selected-projects/varycharm.md)
-* [FNC](selected-projects/fnc.md)
+* [VaryNote](selected-projects/varynote.md)
 * [Robotics](selected-projects/robotics.md)
 * [Representation Learning](selected-projects/representation-learning.md)
 
