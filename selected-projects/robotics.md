@@ -1,10 +1,11 @@
+---
+cover: ../.gitbook/assets/robotautonomy.jpg
+coverY: -48
+---
+
 # Robotics
 
-### Robot and Drone Collaboration and Automation
-
-[← Back to Projects](https://jmhuer.github.io/mini\_book/\_build/html/docs/portfolio.html)
-
-
+Robot and Drone Collaboration and Automation
 
 In this post I share my experience and a few applications of robots and drones for the indoor environment. I cover some of the steps required, and provide access to computer vision, and control software. Theres a few different projects presented here, but in summary we are after applications such as:
 
@@ -60,10 +61,7 @@ The repositories used for this demostration can be found here:
 
 Following the success of this project, the group invested in more sophisticated robot arms, and I participated in creating experiences including, removing dishes from a dishwasher, making soup and pizza, and loading a laundry machine with clothes. Below we have a video of our dishwasher example
 
-\
-\
-\
-
+{% embed url="https://www.youtube.com/embed/Nqcwmck2szk" %}
 
 ### Home Assistant Robot
 
