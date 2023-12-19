@@ -1,5 +1,5 @@
 ---
-description: Fun Music Project
+description: Loft-hiphop-ish
 ---
 
 # 5edexsucks
