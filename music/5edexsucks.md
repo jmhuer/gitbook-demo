@@ -1,5 +1,5 @@
 ---
-description: Loft-hiphop-ish
+description: Lofi-hiphop-ish
 ---
 
 # 5edexsucks
