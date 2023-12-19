@@ -1,11 +1,25 @@
 ---
-cover: ../.gitbook/assets/Robot.gif
-coverY: 0
+cover: ../.gitbook/assets/test-robot-2_1.gif
+coverY: -46.336
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Robotics
 
-Robot and Drone Collaboration and Automation
+### Robot and Drone Collaboration and Automation
 
 In this post I share my experience and a few applications of robots and drones for the indoor environment. I cover some of the steps required, and provide access to computer vision, and control software. Theres a few different projects presented here, but in summary we are after applications such as:
 
