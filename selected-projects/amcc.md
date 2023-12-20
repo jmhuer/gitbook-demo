@@ -34,14 +34,11 @@ Below we show a few results. The sheet music represents the generated section at
 
 **Orginal**
 
-Your browser does not support the audio element.\
-
-
-<figure><img src="../.gitbook/assets/audio2midi_rep (1).png" alt=""><figcaption></figcaption></figure>
+{% file src="../.gitbook/assets/2.Grieg (1).wav" %}
 
 **Generated**
 
-{% file src="../.gitbook/assets/2.Grieg (1).wav" %}
+
 
 \
 \
