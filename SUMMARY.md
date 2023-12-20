@@ -11,7 +11,7 @@
 * [Shift-Invariant Dictionary Learning](selected-projects/shift-invariant-dictionary-learning.md)
 * [AutoLabeling with Thermal Camera](selected-projects/autolabeling-with-thermal-camera.md)
 * [AMCC](selected-projects/amcc.md)
-* [CycleGANs Are Cool](selected-projects/cyclegans-are-cool.md)
+* [CycleGANs Applications](selected-projects/cyclegans-applications.md)
 * [Audio2midi with EAs](selected-projects/audio2midi-with-eas.md)
 
 ## 🎶 Music
