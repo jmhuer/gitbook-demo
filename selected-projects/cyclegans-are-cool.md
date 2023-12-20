@@ -4,10 +4,7 @@
 
 ### CycleGAN for Synthetic Image Generation
 
-Collecting data can be expensive and in certain use cases dangerous to acquire. One such example is smoke data. There are many applications relevant to smoke detection with a camera. To skip the data collection stage we create a synthetic dataset of smoky images..\
-
-
-The Full repository for generation and classification is available here
+Collecting data can be expensive and in certain use cases dangerous to acquire. One such example is smoke data. There are many applications relevant to smoke detection with a camera. To skip the data collection stage we create a synthetic dataset of smoky images..
 
 {% embed url="https://github.com/patel996/smoke-detection" %}
 
@@ -25,13 +22,11 @@ There are a few different ways to generate synthetic data. One possibility is to
 
 To alter the images, we use Cycle Generative Adversarial Network, or CycleGAN. This is an approach to training a deep convolutional neural network for image-to-image translation tasks. The Network learns mapping between input and output images using unpaired dataset.
 
-
+<figure><img src="../.gitbook/assets/cyclegan2.png" alt=""><figcaption></figcaption></figure>
 
 The common example given is one in which we convert horses to zebras and vice versa
 
-\
-\
-
+<figure><img src="../.gitbook/assets/CycleGAN.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### Synthetic data results
 
@@ -39,9 +34,7 @@ The common example given is one in which we convert horses to zebras and vice ve
 
 Below we have some randomly selected examples using a validation set:
 
-\
-\
-
+<figure><img src="../.gitbook/assets/smoke2.png" alt=""><figcaption></figcaption></figure>
 
 ### Classifying smoky images
 
@@ -50,3 +43,4 @@ Below we have some randomly selected examples using a validation set:
 The point of generating smoke synthetic images is to avoid having to collect them in real life. This can be dangerous and expensive. Once we have the technology to add smoke to images, we use the images to train a classifier. If the synthetic data truly reflects the real world data, this classifier should be able to detect smoke in the real world. We use a pretrained Resnet-50 model is used to classify the smoky images from the non-smoky ones. It can be found in the Fire-Smoke-Detection folder, adapted from [smoke-detection-repository](https://github.com/imsaksham-c/Fire-Smoke-Detection).
 
 To evaluate performance, we convert 500 food images with a camera above a stovetop and split 80/20 training and validation. Our validation performance scores \~96%.
+

@@ -30,6 +30,8 @@ The neural network will only have 1-hidden layer. This is considering that we wa
 
 Below we show a few results. The sheet music represents the generated section at approximately at 5:09
 
+<figure><img src="../.gitbook/assets/(1).png" alt=""><figcaption></figcaption></figure>
+
 **Orginal**
 
 Your browser does not support the audio element.\
