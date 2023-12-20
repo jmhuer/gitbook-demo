@@ -9,6 +9,10 @@
 * [VaryNote](selected-projects/varynote.md)
 * [Robotics](selected-projects/robotics.md)
 * [Shift-Invariant Dictionary Learning](selected-projects/shift-invariant-dictionary-learning.md)
+* [AutoLabeling with Thermal Camera](selected-projects/autolabeling-with-thermal-camera.md)
+* [AMCC](selected-projects/amcc.md)
+* [smoke](selected-projects/smoke.md)
+* [audio2midi](selected-projects/audio2midi.md)
 
 ## 🎶 Music
 
@@ -17,3 +21,4 @@
 ***
 
 * [📖 My Wiki](https://jmhuer.gitbook.io/juans-wiki)
+* [Sound Activity Recognition and Annomaly detection](sound-activity-recognition-and-annomaly-detection.md)
