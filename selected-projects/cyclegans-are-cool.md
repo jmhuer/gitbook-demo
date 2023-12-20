@@ -1,16 +1,15 @@
-# smoke
+# CycleGANs Are Cool
+
+<figure><img src="../.gitbook/assets/smoke.png" alt=""><figcaption></figcaption></figure>
 
 ### CycleGAN for Synthetic Image Generation
-
-[← Back to Projects](https://jmhuer.github.io/mini\_book/\_build/html/docs/portfolio.html)
-
-\
-
 
 Collecting data can be expensive and in certain use cases dangerous to acquire. One such example is smoke data. There are many applications relevant to smoke detection with a camera. To skip the data collection stage we create a synthetic dataset of smoky images..\
 
 
-The Full repository for generation and classification is available here: [smoke-cyclegan-repository](https://github.com/patel996/smoke-detection)
+The Full repository for generation and classification is available here
+
+{% embed url="https://github.com/patel996/smoke-detection" %}
 
 ### Synthetic data
 

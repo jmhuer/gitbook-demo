@@ -1,11 +1,8 @@
-# audio2midi
+# Audio2midi with EAs
 
-### Audio to Midi Transcription Using a Genetic Algorithm
+<figure><img src="../.gitbook/assets/audio2midi (1).png" alt=""><figcaption></figcaption></figure>
 
-[← Back to Projects](https://jmhuer.github.io/mini\_book/\_build/html/docs/portfolio.html)
-
-\
-
+### Audio to Midi Transcription Using a Evolutionary Algorithm
 
 In this post we attempt to convert an audio excerpt from Twinkle Twinkle Little Star, played on the piano, into the corresponding MIDI file using genetic algorithm and show it performs better than a random search and a hill climber baseline.\
 
@@ -24,16 +21,11 @@ Individual solution are represented by MIDI files (limited to piano as the only 
 
 Below we have an illustration of how we represent individual solutions. To do this we first crete an individual MIDI file (genotype), and to evaluate its resemblance to the original audio file the MIDI file is converted to its corresponding audio file.
 
-
-
 ### Generating Initial Population
 
 ***
 
 To begin the genetic algorithm, we dirst have to generate the initial population. We do so by creating some empirical rules:
-
-\
-
 
 | Note Feature    | Method                                                                                     |
 | --------------- | ------------------------------------------------------------------------------------------ |
@@ -49,9 +41,6 @@ To begin the genetic algorithm, we dirst have to generate the initial population
 
 The mutations were decided to be as follows:
 
-\
-
-
 | Mutation                    | Description                                                                               |
 | --------------------------- | ----------------------------------------------------------------------------------------- |
 | Mutation Length of Note     | Normal Distribution, mean 60, std 5                                                       |
@@ -66,20 +55,16 @@ The mutations were decided to be as follows:
 
 Finally our results can be summarized by the plot below. This took 2 days to run on my personal computer (Macbook 2017 - 13') to run
 
-
-
 And below is our best fitness individual and the original twinkle twinkle little star audio
 
 **Original**
 
 Your browser does not support the audio element.\
-\
 
 
 **Best Fitness**
 
 Your browser does not support the audio element.\
-\
 
 
 ### Conclusion
@@ -87,3 +72,4 @@ Your browser does not support the audio element.\
 ***
 
 In summary, a simple evolutionary algorithm can do _OK_ at discovering symbolic music from a given audio clip. The solution discovered is not perfect and the ammount of computation required is substantial for a monophonic 10 second music. In the future I plan to incorporate some ways of parametrizing the evolutionary algorithm hyperparameters and using deep learning embeddings as part of the recombination strategy.
+
