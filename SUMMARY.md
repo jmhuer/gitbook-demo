@@ -21,4 +21,3 @@
 ***
 
 * [📖 My Wiki](https://jmhuer.gitbook.io/juans-wiki)
-* [Sound Activity Recognition and Annomaly detection](sound-activity-recognition-and-annomaly-detection.md)
