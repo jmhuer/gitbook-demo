@@ -59,19 +59,15 @@ Finally our results can be summarized by the plot below. This took 2 days to run
 
 <figure><img src="../.gitbook/assets/ga_performance.png" alt="" width="563"><figcaption></figcaption></figure>
 
-And below is our best fitness individual and the original twinkle twinkle little star audio
+Below is our best fitness individual and the original twinkle twinkle little star audio
 
 **Original**
 
-
-
-Your browser does not support the audio element.\
-
+{% file src="../.gitbook/assets/aj.wav" %}
 
 **Best Fitness**
 
-Your browser does not support the audio element.\
-
+{% file src="../.gitbook/assets/targetj.wav" %}
 
 ### Conclusion
 
