@@ -21,6 +21,8 @@ Individual solution are represented by MIDI files (limited to piano as the only 
 
 Below we have an illustration of how we represent individual solutions. To do this we first crete an individual MIDI file (genotype), and to evaluate its resemblance to the original audio file the MIDI file is converted to its corresponding audio file.
 
+<figure><img src="../.gitbook/assets/audio2midi_rep.png" alt=""><figcaption></figcaption></figure>
+
 ### Generating Initial Population
 
 ***
@@ -55,9 +57,13 @@ The mutations were decided to be as follows:
 
 Finally our results can be summarized by the plot below. This took 2 days to run on my personal computer (Macbook 2017 - 13') to run
 
+<figure><img src="../.gitbook/assets/ga_performance.png" alt="" width="563"><figcaption></figcaption></figure>
+
 And below is our best fitness individual and the original twinkle twinkle little star audio
 
 **Original**
+
+
 
 Your browser does not support the audio element.\
 

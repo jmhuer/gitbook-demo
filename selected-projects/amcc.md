@@ -37,7 +37,11 @@ Below we show a few results. The sheet music represents the generated section at
 Your browser does not support the audio element.\
 
 
+<figure><img src="../.gitbook/assets/audio2midi_rep (1).png" alt=""><figcaption></figcaption></figure>
+
 **Generated**
 
-Your browser does not support the audio element.\
+{% file src="../.gitbook/assets/2.Grieg (1).wav" %}
+
+\
 \
