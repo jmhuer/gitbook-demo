@@ -5,6 +5,8 @@ coverY: 35
 
 # Auto-labeling with Thermal Camera
 
+<figure><img src="../.gitbook/assets/thermal (1).png" alt=""><figcaption></figcaption></figure>
+
 ### Automate Data Labeling using Temperature Differential
 
 Data labeling for object detection/segmentation is expensive to acquire. In this post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques. We can create mask or ROI annotations depending on annotations of interest.
@@ -14,8 +16,6 @@ Data labeling for object detection/segmentation is expensive to acquire. In this
 ### Introduction
 
 ***
-
-<figure><img src="../.gitbook/assets/thermal.png" alt=""><figcaption></figcaption></figure>
 
 There are many popular dataset for computer vision, but for custom objects one might be required to collect and label data manually. For example, see below:
 
@@ -69,6 +69,8 @@ Here we have an example applying our proposed method on items that were left in 
 ***
 
 Finally mammals usually have a body temperature higher than the surroundings. In these settings our method can be applied naturally
+
+<figure><img src="../.gitbook/assets/thermal.png" alt=""><figcaption></figcaption></figure>
 
 ### Conclusion
 
