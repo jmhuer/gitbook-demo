@@ -1,10 +1,23 @@
 ---
-coverY: 0
+cover: ../.gitbook/assets/Screen Shot 2023-12-21 at 11.17.58 AM.png
+coverY: 144
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Audio2midi with EAs
-
-<figure><img src="../.gitbook/assets/audio2midi (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Audio to Midi Transcription Using a Evolutionary Algorithm
 
@@ -16,6 +29,8 @@ In this post we attempt to convert an audio excerpt from Twinkle Twinkle Little 
 ***
 
 MIDI (Music Instrument Digital Interface) is the industry standard communication scheme for digital music devices. Although MIDI does not provide a perfect representation of human music, it provides tools that can be helpful to the study of performance practice, computer assisted performance, and improvisational composition. It is scheme of great value to the development of modern music. That being said, the development of an accurate Audio-to-Midi converted is commonly sought-after. Usual approaches to this task involve some sort of pitch detection mechanism. The list of algorithms developed to do this is extensive, yet due to the astonishing complexity and variety of musical sound, none of these can be used comfortably without human assistance. In the search for a more intelligent algorithm to convert from audio to midi a Genetic Algorithm will be used. A Genetic Algorithm, is a bio-inspired, optimization mechanism that can be used very generally. The simple task of converting an audio excerpt of Twinkle Twinkle Little Star into its corresponding MIDI representation will be attempted. The MIDI generated will be limited to only piano sounds.Keep in mind that although there is little novelty in this transcription, the hope is that further developments on the genetic algorithm will eventually outperform the current day pitch detection approaches to audio to midi conversion.
+
+<figure><img src="../.gitbook/assets/audio2midi (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Problem Representation
 
