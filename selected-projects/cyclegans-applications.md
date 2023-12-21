@@ -1,4 +1,8 @@
-# CycleGANs Are Cool
+---
+coverY: 0
+---
+
+# CycleGANs Applications
 
 <figure><img src="../.gitbook/assets/smoke.png" alt=""><figcaption></figcaption></figure>
 

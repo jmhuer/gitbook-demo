@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Audio2midi with EAs
 
 <figure><img src="../.gitbook/assets/audio2midi (1).png" alt=""><figcaption></figcaption></figure>

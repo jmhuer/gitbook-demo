@@ -13,7 +13,7 @@ description: Lofi-hiphop-ish
 {% embed url="https://soundcloud.com/5edex-sucks/welcome-to-5edex?in=5edex-sucks/sets/juans-music&si=e775e60c49e240649e0878ed58066656&utm_campaign=social_sharing&utm_medium=text&utm_source=clipboard" %}
 
 {% hint style="info" %}
-I ❤️ microsoft Paint 🎨
+I ❤️ Microsoft Paint 🎨
 {% endhint %}
 
 ## 0.3 Dreaming ☁️
