@@ -1,10 +1,10 @@
 ---
-cover: ../.gitbook/assets/Robot.gif
-coverY: 4.8480000000000025
+cover: ../.gitbook/assets/Screen Shot 2023-12-20 at 7.14.26 PM.png
+coverY: 0
 layout:
   cover:
     visible: true
-    size: hero
+    size: full
   title:
     visible: true
   description:
@@ -21,14 +21,17 @@ layout:
 
 ### Robot and Drone Collaboration and Automation
 
-In this post I share my experience and a few applications of robots and drones for the indoor environment. I cover some of the steps required, and provide access to computer vision, and control software. Theres a few different projects presented here, but in summary we are after applications such as:
+In this post I share my experience and a few applications of robots and drones for the indoor environment. I cover some of the steps required, and provide access to computer vision, and control software. Theres a few different projects presented here, but in summary we are after applications such as: senior care, general home assistance, security systems, drone signal routers, and food recognition with drones cameras.
 
-* Senior Care
-* Home Assistance
-* Security Systems
-* Enchanted home appliances applications:
-  * Drone signal routers
-  * Food recognition with drones cameras
+{% embed url="https://github.com/jmhuer/DJITelloAutonomy2" %}
+Drone Automation coebase
+{% endembed %}
+
+{% embed url="https://github.com/srinithish/Smarttable" %}
+Robotic hand codebase
+{% endembed %}
+
+
 
 ### Customizing Robotic xArm 6DOF
 
@@ -38,14 +41,9 @@ In the Emerging Technologies and Innovation group at GE, we designed a few exper
 
 The repositories used for this demostration can be found here:
 
-* [Robot-Arm-](https://github.com/srinithish/Robotic-Hand-)
-* [Comuter-vision-arm](https://github.com/srinithish/Smarttable)
+{% embed url="https://github.com/srinithish/Smarttable" %}
 
-In addition, we did a proof of concept with the robot arm collaborating with a drone, Parrot Mambo, to deliver small food items to a nearby user. Below is a demo:
-
-The repositories used for this demostration can be found here:
-
-* [autonomous-drone](https://github.com/jmhuer/DJITelloAutonomy2)
+In addition, we did a proof of concept with the robot arm collaborating with a drone, Parrot Mambo, to deliver small food items to a nearby user.&#x20;
 
 ### Home Assistant Robot
 
