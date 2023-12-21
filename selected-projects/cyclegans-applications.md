@@ -1,6 +1,7 @@
 ---
-cover: ../.gitbook/assets/Screen Shot 2023-12-21 at 10.59.54 AM.png
-coverY: -80.67288801571709
+cover: >-
+  ../.gitbook/assets/Example-of-Style-Transfer-from-Famous-Painters-to-Photographs-of-Landscapes.png
+coverY: -141
 layout:
   cover:
     visible: true
