@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/Screen Shot 2023-12-21 at 11.17.58 AM.png
-coverY: 144
+coverY: 46.06164383561644
 layout:
   cover:
     visible: true
