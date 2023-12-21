@@ -1,6 +1,9 @@
-# AutoLabeling with Thermal Camera
+---
+cover: ../.gitbook/assets/istockphoto-1215928995-640x640 (1).jpg
+coverY: 35
+---
 
-<figure><img src="../.gitbook/assets/thermal.png" alt=""><figcaption></figcaption></figure>
+# Auto-labeling with Thermal Camera
 
 ### Automate Data Labeling using Temperature Differential
 
@@ -11,6 +14,8 @@ Data labeling for object detection/segmentation is expensive to acquire. In this
 ### Introduction
 
 ***
+
+<figure><img src="../.gitbook/assets/thermal.png" alt=""><figcaption></figcaption></figure>
 
 There are many popular dataset for computer vision, but for custom objects one might be required to collect and label data manually. For example, see below:
 
