@@ -49,9 +49,13 @@ Shift-invariant dictionary learning (SIDL) refers to the problem of discovering 
 >
 > Given the data: $$X=\left[x_{1}, \ldots, x_{K}\right], x_{i} \in \mathbb{R}^{d}$$ . We want a dictionary $$\mathbf{D} \in \mathbb{R}^{d \times n}: D=\left[d_{1}, \ldots, d_{n}\right]$$ , and a representation $$R=\left[r_{1}, \ldots, r_{K}\right], r_{i} \in \mathbb{R}^{n}$$ such that the reconstruction $$\|X-\mathbf{D} R\|_F^2$$ is minimized and $$r_{i}$$ are sparsed. The optimization problem can be formulated as:
 >
-> $$\begin{equation} \underset{\mathbf{D} \in \mathcal{C}, r_i \in \mathbb{R}^n, \lambda>0}{\operatorname{argmin}} \sum_{i=1}^K\left\|x_i-\mathbf{D} r_i\right\|_2^2+\lambda\left\|r_i\right\|_0 \end{equation}$$      $$\mathcal{C} \equiv\left\{\mathbf{D} \in \mathbb{R}^{d \times n}:\left\|d_{i}\right\|_{2} \leq 1 \forall i=1, \ldots, n\right\}$$
 >
 >
+> $$\begin{equation} \underset{\mathbf{D} \in \mathcal{C}, r_i \in \mathbb{R}^n, \lambda>0}{\operatorname{argmin}} \sum_{i=1}^K\left\|x_i-\mathbf{D} r_i\right\|_2^2+\lambda\left\|r_i\right\|_0 \end{equation}$$   &#x20;
+>
+>
+>
+> &#x20; $$\mathcal{C} \equiv\left\{\mathbf{D} \in \mathbb{R}^{d \times n}:\left\|d_{i}\right\|_{2} \leq 1 \forall i=1, \ldots, n\right\}$$
 
 ## How do we solve this problem?
 
