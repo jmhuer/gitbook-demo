@@ -47,9 +47,11 @@ Shift-invariant dictionary learning (SIDL) refers to the problem of discovering 
 
 > **Dictionary Learning**:
 >
-> Given the data: $ X=\left\[x\_{1}, \ldots, x\_{K}\right], x\_{i} \in \mathbb{R}^{d} $. We want a dictionary $\mathbf{D} \in \mathbb{R}^{d \times n}: D=\left\[d\_{1}, \ldots, d\_{n}\right]$ , and a representation $R=\left\[r\_{1}, \ldots, r\_{K}\right], r\_{i} \in \mathbb{R}^{n}$ such that the reconstruction $|X-\mathbf{D} R|_{F}^{2}$ is minimized and $r_{i}$ are sparsed. The optimization problem can be formulated as:
+> Given the data: $$X=\left[x_{1}, \ldots, x_{K}\right], x_{i} \in \mathbb{R}^{d}$$ . We want a dictionary $$\mathbf{D} \in \mathbb{R}^{d \times n}: D=\left[d_{1}, \ldots, d_{n}\right]$$ , and a representation $$R=\left[r_{1}, \ldots, r_{K}\right], r_{i} \in \mathbb{R}^{n}$$ such that the reconstruction $$\|X-\mathbf{D} R\|_F^2$$ is minimized and $$r_{i}$$ are sparsed. The optimization problem can be formulated as:
 >
-> ## $$\underset{\mathbf{D} \in \mathcal{C}, r_{i} \in \mathbb{R}^{n}, \lambda>0} {\operatorname{argmin}} \sum_{i=1}^{K}\left\|x_{i}-\mathbf{D} r_{i}\right\|_{2}^{2}+\lambda\left\|r_{i}\right\|_{0} \\ \mathcal{C} \equiv\left\{\mathbf{D} \in \mathbb{R}^{d \times n}:\left\|d_{i}\right\|_{2} \leq 1 \forall i=1, \ldots, n\right\}$$
+> $$\begin{equation} \underset{\mathbf{D} \in \mathcal{C}, r_i \in \mathbb{R}^n, \lambda>0}{\operatorname{argmin}} \sum_{i=1}^K\left\|x_i-\mathbf{D} r_i\right\|_2^2+\lambda\left\|r_i\right\|_0 \end{equation}$$      $$\mathcal{C} \equiv\left\{\mathbf{D} \in \mathbb{R}^{d \times n}:\left\|d_{i}\right\|_{2} \leq 1 \forall i=1, \ldots, n\right\}$$
+>
+>
 
 ## How do we solve this problem?
 
@@ -102,14 +104,11 @@ Your browser does not support the audio element.\
 **Interpolated Result**
 
 Your browser does not support the audio element.\
-\
 
 
 ### Average Dictionary Activity
 
 Finally another useful application for discovering style of a symbolic piece of music in an unsupervised way. To do this we average dictionary activity of arbitrary length music and plot main two compoenents:
-
-
 
 <figure><img src="../.gitbook/assets/sidl.png" alt=""><figcaption></figcaption></figure>
 
@@ -118,3 +117,4 @@ Finally another useful application for discovering style of a symbolic piece of 
 ***
 
 We have shown that a Temporal CONV-WTA Autoencoder can learn a sparse representation of arbitrary length symbolic musical signal. This shift-invariant, sparse representation can be used to analyze features, de-noise, extract style, and to generate musical content in a structured or unstructured way. The reconstruction and generation for the drum (Groove) dataset was significantly better than the piano (MAESTRO) dataset. This is in part because the drum dataset was preprocessed to match with the kernel size, all drum sections were the same length, and had lower dimensionality in comparison. In the future, we hope to use a larger and more diverse dataset, improve reconstruction performance, and apply similar preprocessing to the piano data as done for the drum data. We also plan to further develop applications of this technology and build tools for artists.
+
