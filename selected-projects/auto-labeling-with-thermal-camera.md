@@ -58,11 +58,15 @@ The method consists of the following steps.
 
 Here we have an example applying our proposed method on food being cooked. This setting provides us a very natural temperature differential since the pan is almost always hotter than the food. Of course there are exceptions but this method is not meant to sutable for all settings, otherwise we wouldnt need any neural nets!
 
+<figure><img src="../.gitbook/assets/thermalfood (1).png" alt=""><figcaption></figcaption></figure>
+
 ### Cooling Down Objects
 
 ***
 
 Here we have an example applying our proposed method on items that were left in the fridge for a few min. This creates the necessary temperature differential:
+
+<figure><img src="../.gitbook/assets/thermalwarm.png" alt=""><figcaption></figcaption></figure>
 
 ### Humans or Animals
 
@@ -76,7 +80,6 @@ Finally mammals usually have a body temperature higher than the surroundings. In
 
 ***
 
-Altough these are just a few examples you can use the code to test and try new settings. Applying what we have shown here can save you many hours of labeling data, or help enchace certain computer vision systems!
+Although these are just a few examples you can use the code to test and try new settings. Applying what we have shown here can save you many hours of labeling data, or help enchace certain computer vision systems!
 
-\
 \
