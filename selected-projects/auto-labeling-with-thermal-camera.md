@@ -9,7 +9,9 @@ coverY: 35
 
 ### Automate Data Labeling using Temperature Differential
 
-Data labeling for object detection/segmentation is expensive to acquire. In this post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques. We can create mask or ROI annotations depending on annotations of interest.
+Data labeling for object detection/segmentation often incurs substantial expenses. In this discussion, we delve into an innovative approach to expedite this process, leveraging thermal cameras alongside conventional computer vision techniques. The crux of this method involves aligning a regular camera with a thermal camera. By doing so, we can generate annotations such as masks or Region of Interest (ROI) annotations based on temperature differentials observed.
+
+This methodology does come with certain limitations and prerequisites. Precise alignment between the regular and thermal cameras is necessary, and it's essential to ensure consistent environmental conditions for accurate annotations. Despite these requirements, numerous use cases can capitalize on this approach, offering an efficient means to bootstrap computer vision models. The fusion of thermal and visual data not only expedites data labeling but also provides a novel and valuable perspective for enhancing object detection accuracy.
 
 {% embed url="https://github.com/jmhuer/mask_from_thermal_image" %}
 
@@ -17,20 +19,18 @@ Data labeling for object detection/segmentation is expensive to acquire. In this
 
 ***
 
-There are many popular dataset for computer vision, but for custom objects one might be required to collect and label data manually. For example, see below:
+While numerous computer vision datasets are readily available, custom object recognition often requires manual data collection and labeling. Data labeling can be both time-consuming and costly. For an illustration of the standard annotation process, refer to the visualization below:
 
-In this post I propose a new method that can be applied in two ways:
+<figure><img src="../.gitbook/assets/labelex.gif" alt=""><figcaption></figcaption></figure>
 
-* To speed up objects labeling process to train supervised computer vision models
-* For object localization in combination with a classification model, for a hybrid object detection approach. This can be useful in certain cases were you have a fixed camera, for example: refrigerator cameras, parking lot cameras, security cameras, etc.
+In this post, I present a novel method that offers two distinct applications:
 
-We have some requirements for when this method can be used. Primarily, we require a specific setting where the objects of interest have a noticeable temperature difference. Such as:
+1. Accelerating the object labeling process to facilitate training for supervised computer vision models.
+2. Object localization coupled with a classification model, forming a hybrid object detection approach. This hybrid approach proves beneficial in fixed camera scenarios, such as refrigerator cameras, parking lot cameras, security cameras, and similar setups.
 
-* Living things
-* Stove top cooking, ovens, or cooking in general
-* Items that can be cooled before collecting data
+This method comes with certain prerequisites. It operates effectively in settings where the objects of interest exhibit a noticeable temperature difference. Such scenarios include living organisms, stove-top cooking, ovens, and items that can be deliberately cooled before data collection.
 
-You will need a [Flir-camera](https://www.amazon.com/FLIR-ONE-Pro-Professional-Smartphones/dp/B072J49BX7/ref=sr\_1\_3?keywords=FLIR%2BInfrared%2BCamera\&qid=1641504646\&sr=8-3\&th=1) specifically since it is crucial to be able to take an image with both RGB and Thermal sensors and calibrate overlay between the two images.
+The [Flir-camera](https://www.amazon.com/FLIR-ONE-Pro-Professional-Smartphones/dp/B072J49BX7/ref=sr\_1\_3?keywords=FLIR%2BInfrared%2BCamera\&qid=1641504646\&sr=8-3\&th=1) is recommended for its capability to capture images with both RGB and Thermal sensors. Other thermal cameras can be used, but achieving precise alignment between the different lenses is essential for accurate calibration between the two types of images.
 
 ### Method
 
@@ -44,19 +44,20 @@ The method consists of the following steps.
 
 **Step 2**: Specify expected temperature of item of interest
 
-* For example: _10**C** < temp > 30**C** or temp > 30**C**_ and classes name
+* For example:  _**`10C`**` ``< temp <`` `**`30C`**_   or   _`temp >`` `**`30C`**_&#x20;
 
 **Step 3**: Run
 
-* Apply thermal image postprocessing: _Bucket fill -> K-means -> Find contour_, to obtain localization of objects.
+* Apply thermal image postprocessing to obtain localization of objects: \
+  _`Bucket fill``  `**`->`**` `` ``K-means``  `**`->`**`  ``Find contour`_
 * Extract RGB image using python
-* Store RGB image and labeled image in desired format: ROI or PNG Mask
+* Store RGB image and labeled image in desired format ROI key-points or PNG Mask
 
 ### Stove Top Examples
 
 ***
 
-Here we have an example applying our proposed method on food being cooked. This setting provides us a very natural temperature differential since the pan is almost always hotter than the food. Of course there are exceptions but this method is not meant to sutable for all settings, otherwise we wouldnt need any neural nets!
+In this example, we're applying our proposed method to cooking food. This setting provides us with a very natural temperature differential, as the pan is typically hotter than the food. However, it's important to note that while this scenario offers a clear contrast, there are exceptions. This method isn't universally applicable to all settings; otherwise, neural nets might not be necessary!&#x20;
 
 <figure><img src="../.gitbook/assets/thermalfood (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -64,7 +65,7 @@ Here we have an example applying our proposed method on food being cooked. This 
 
 ***
 
-Here we have an example applying our proposed method on items that were left in the fridge for a few min. This creates the necessary temperature differential:
+In this scenario, we're applying our proposed method to items that have been left in the fridge for a few minutes. This setup naturally creates the required temperature differential. This method is effective for various items, although there's a time constraint as these items gradually warm up.
 
 <figure><img src="../.gitbook/assets/thermalwarm.png" alt=""><figcaption></figcaption></figure>
 
@@ -72,7 +73,7 @@ Here we have an example applying our proposed method on items that were left in 
 
 ***
 
-Finally mammals usually have a body temperature higher than the surroundings. In these settings our method can be applied naturally
+In contrast, mammals typically have a body temperature that exceeds the surrounding environment, making our method naturally applicable in such scenarios, as seen in examples like people counting or pet detection.
 
 <figure><img src="../.gitbook/assets/thermal.png" alt=""><figcaption></figcaption></figure>
 
@@ -80,6 +81,8 @@ Finally mammals usually have a body temperature higher than the surroundings. In
 
 ***
 
-Although these are just a few examples you can use the code to test and try new settings. Applying what we have shown here can save you many hours of labeling data, or help enchace certain computer vision systems!
+Expediting the data labeling process for object detection and segmentation, as explored in this discussion, stands as a substantial cost-saving measure. Leveraging thermal cameras in tandem with traditional computer vision techniques offers an innovative solution to this laborious task. While this method comes with prerequisites and limitations, its potential impact cannot be overlooked. Aligning visual and thermal data not only expedites labeling but also enriches computer vision systems with a unique perspective. From people counting to pet detection and beyond, this fusion of data provides a valuable resource for enhancing the accuracy of object detection models.
+
+These examples are just the tip of the iceberg. Our provided code allows for experimentation with various settings, potentially saving countless hours otherwise spent on manual data labeling. By adopting these techniques, one can revolutionize the data annotation process, offering an efficient means to boost computer vision systems' accuracy and efficiency.
 
 \
