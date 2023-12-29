@@ -21,7 +21,9 @@ layout:
 
 ### Automatic Music Composition and Completion
 
-We present a new symbolic approach to automatic music generation. First we create a dataset of 62 hours of Mozart music represented by binary piano roll arrays. The dataset is used to train a 1-hidden layer neural network to predict a section of music given the surrounding music. After training we will use our model to continuously predict and replace random sections of existing music completely altering the original into what we consider new music.
+We introduce a novel symbolic method for automated music composition. Our process begins by compiling a dataset comprising 62 hours of Mozart's music represented in binary piano roll arrays. Leveraging this dataset, we train a 1-hidden layer neural network (essentially Logistic Regression with a non-linear activation). This network is trained to predict a segment of music based on its contextual surroundings within the composition.
+
+Post-training, our model continuously predicts and substitudes sections within existing music. This transformation results in what we perceive as newly composed music. This modeling approach draws parallels with skipgram models by capturing contextual dependencies in music sequences. Its advantage lies in imitating high-level musical structural features, effectively addressing the challenge of long sequence dependencies and maintaining an awareness of the overall music structure in a simple manner.
 
 
 
@@ -29,15 +31,15 @@ We present a new symbolic approach to automatic music generation. First we creat
 
 ***
 
-In this post we are attempting to generate music that utilizes the clarity and low com- putational cost of a symbolic representation while maintaining a good variation and global structure. However unlike the usual approach to generate music we will not use any form of sequence modeling mechanism. Instead we will attempt to create a new sequence of music by altering an existing sequence of music. To accomplish this, we will train a neural network to predict a missing section of music given the surrounding music. After trining, we will use our model to predict and replace sections of existing music.
+In this post, we aim to create music employing a symbolic representation that offers clarity and low computational cost while ensuring sufficient variation and global structure. However, unlike the conventional method of music generation utilizing sequence modeling mechanisms, we'll adopt an alternate approach. Our strategy involves generating new music by altering an existing sequence. To achieve this, we'll train a neural network to predict a missing section of music based on the surrounding context. Following the training phase, we'll utilize our model to predict and replace sections within the existing music.
 
 ### Method
 
 ***
 
-The neural network will only have 1-hidden layer. This is considering that we want to condense compositional information. We are more interested in the network learning general harmonic patterns than subtle stylistic elements so we start with 1-hidden layer and proceed according to the results. The neural network model is an adaptation to the CBWM introduced by Mikolov et al. to the many-hot case. Notably, we will also replace the last softmax layer in the CBWM by a sigmoid layer with N outputs. This will allow us to separately predict each note on the piano roll. The input layer takes a binary vector which represents a musical section. The task is then to predict the musical section in the middle , see figure below for a visualization of the training process.
+The neural network architecture we've chosen incorporates only a single hidden layer. This decision aims to distill compositional insights, focusing more on learning general harmonic patterns rather than nuanced stylistic elements. As we proceed, we'll assess the model's performance and adapt if necessary. Our model is an adaptation of the Continuous Bag of Words Model (CBWM) by Mikolov et al., modified for the many-hot case. A key modification involves replacing the CBWM's last softmax layer with a sigmoid layer featuring N outputs. This adjustment allows separate predictions for each note on the piano roll. The input layer receives a binary vector representing a musical section, and the objective is to predict the middle section of music. Refer to the visualization below for a detailed depiction of the training process.
 
-<figure><img src="../.gitbook/assets/amcc (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/amcc (1).png" alt=""><figcaption><p>Diagram Representation of the predictive process for AMCC</p></figcaption></figure>
 
 ### Results
 
@@ -46,20 +48,22 @@ The neural network will only have 1-hidden layer. This is considering that we wa
 #### Comparisons input-output
 
 {% embed url="https://www.youtube.com/watch?v=pbd3n9pevck" %}
+Video demo transforming music from various different composers&#x20;
+{% endembed %}
 
 #### Example 1 (Edvard Grieg)
 
 Below we show a few results. The sheet music represents the generated section at approximately at 5:09
 
-<figure><img src="../.gitbook/assets/(1).png" alt=""><figcaption></figcaption></figure>
-
-**Orginal**
+**Original**
 
 {% file src="../.gitbook/assets/2.Grieg (1).wav" %}
 
 **Generated**
 
 {% file src="../.gitbook/assets/2.Grieg_out.wav" %}
+
+<figure><img src="../.gitbook/assets/(1).png" alt=""><figcaption><p>Sheet music for output example min 5:09</p></figcaption></figure>
 
 \
 \
