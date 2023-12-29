@@ -17,6 +17,7 @@
 ## 🎶 Music
 
 * [5edexsucks](music/5edexsucks.md)
+* [Other](music/other.md)
 
 ***
 
