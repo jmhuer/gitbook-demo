@@ -95,20 +95,15 @@ new_code1, new_code2  = 0.5*code1[0] + 0.5*code2[0]
 
 **Original 1**
 
-Your browser does not support the audio element.\
-\
-
+{% file src="../.gitbook/assets/1.wav" %}
 
 **Original 2**
 
-Your browser does not support the audio element.\
-\
-
+{% file src="../.gitbook/assets/2.wav" %}
 
 **Interpolated Result**
 
-Your browser does not support the audio element.\
-
+{% file src="../.gitbook/assets/3.wav" %}
 
 ### Average Dictionary Activity
 
